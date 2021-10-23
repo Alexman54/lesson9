@@ -1,0 +1,273 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+.task-one {
+	background-color: #F5F5F5;
+}
+.task-one__body {
+	max-width: 1020px;
+	margin: 0 auto 100px auto;
+	padding: 110px 0 113px 0;
+}
+.task-one__header {
+	margin: 0 0 75px 0;
+}
+.we-who {
+	font-size: 0;
+}
+.we-who__img {
+	margin: 0 5px 0 0;
+}
+.we-who__title {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 27px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	margin: 0 0 28px 0;
+}
+.we-who__sub-title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+}
+.task-one__bottom{
+	margin-bottom: 66px;
+}
+.task-one__row {
+	font-size: 0;
+	margin: -12px -12px;
+	
+}
+.task-one__items {
+	margin: 0 auto;
+	display: inline-block;
+	padding: 12px 12px;
+}
+.block-item {
+	background-color: #fff;
+	display: inline-block;
+	max-width: 324px;
+	padding: 50px 44px 50px 43px;
+	text-align: center;
+	border-radius: 20px;
+}
+.block-item:hover{
+	box-shadow: 0 0 10px 0 #000;
+}
+.block-item__img {
+	margin: 0 0 30px 0;
+}
+.block-item__content{
+}
+.block-item__title {
+	display: inline-block;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin-bottom: 20px;
+}
+.block-item__text {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+.task-one__button-link {
+	margin: 0 auto;
+}
+.button-link {
+	max-width: 124px;
+	background: #F2726F;
+	border-radius: 10px;
+	padding: 19px 24px 19px 24px;
+}
+.button-link__href {
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+
+.task-two{
+	background-color: #f5f5f5;
+}
+.task-two__body{
+	max-width: 1020px;
+	margin: 0 auto 100px auto;
+	padding: 87px 0 121px 0;
+}
+
+.task-two__header{
+	margin: 0 0 68px 0;
+
+}
+
+.task-two__bottom{
+
+}
+
+.task-two__row {
+	font-size: 0;
+}
+.task-two__items {
+	display: inline-block;
+	
+}
+
+.task-two__items:not(:last-child){
+	margin-right: 24px;
+}
+
+.block-item_indent-font{
+	background-color: #f5f5f5;
+	padding: 0;
+	text-align: left;
+	border-radius: 0;
+}
+.block-item__img_indent{
+	margin: 0 23px 0 0;
+}
+
+.block-item__content_width{
+	display: inline-block;
+	max-width: 235px;
+}
+
+.block-item__title_line-height{
+	line-height: 36px;
+}
+
+.task-three {
+	background: #29C3BE url("../img/Blob_2.png") 670px 0 no-repeat;
+}
+.task-three__body {
+	max-width: 1020px; 
+	margin: 0 auto 200px auto;
+	padding: 112px 0 212px 0;
+}
+.task-three__header {
+	display: inline-block;
+	margin: 0 107px 0 0;
+}
+.we-who_inline-block{
+	display: inline-block;
+}
+.we-who__title_color{
+	color: #fff;
+}
+
+.we-who__sub-title_width-color{
+	color: #fff;
+	max-width: 411px;
+}
+.task-three__image{
+	border-radius: 40px;
+	margin: -192px 0 85px 0;
+}
+
+.task-three__bottom {
+}
+.task-three__row {
+	font-size: 0;
+}
+.task-three__items {
+	display: inline-block;
+}
+.task-three__items:not(:last-child){
+	margin-right: 24px;
+}
+
+.item-block {
+	display: inline-block;
+	max-width: 237px;
+	vertical-align: top;
+}
+.item-block__icon{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.item-block__img {
+	margin: 0 11px 0 0;
+}
+.item-block__content {
+	display: inline-block;
+	min-width: 150px;
+	
+}
+.item-block__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 46px;
+	color: #FFFFFF;
+	max-width: 110px;
+	overflow: hidden;
+}
+.item-block__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+	max-width: 110px;
+	overflow: hidden;
+}
